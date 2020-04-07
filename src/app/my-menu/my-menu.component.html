@@ -1,0 +1,9 @@
+<div id="menu-trigger"
+    (tap)="openMenu($event)">
+    <div [matMenuTriggerFor]="menu">
+        OPEN MENU
+    </div>
+</div>
+<mat-menu #menu="matMenu">
+    <div id="menu-item" (tap)="onItemSelected()">MENU ITEM</div>
+</mat-menu>
