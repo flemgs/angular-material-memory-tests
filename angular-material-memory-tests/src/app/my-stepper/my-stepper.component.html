@@ -1,0 +1,20 @@
+<mat-horizontal-stepper [selectedIndex]="selectedStepIndex">
+    <mat-step>
+       <div>STEP 0</div>
+        <button (tap)="next()"
+                id="next-0"
+                mat-button>NEXT</button>
+    </mat-step>
+    <mat-step>
+        <div>STEP 1</div>
+        <button (tap)="next()"
+                id="next-1"
+                mat-button>NEXT</button>
+    </mat-step>
+    <mat-step>
+        <div>STEP 2</div>
+        <button (tap)="next()"
+                id="next-2"
+                mat-button>NEXT</button>
+    </mat-step>
+</mat-horizontal-stepper>
